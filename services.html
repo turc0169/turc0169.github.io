@@ -2,125 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 
 <body>
-   <div class="wrap'">
+  <div class="wrap'">
     <header>
-       <div class="top">
-       <div class="logo">
-        <image src="./images/svg/landlogo.png">
-           </div>
-<!--            <image src="images/downarrow.png" class="down">-->
-                <ul class="nav">
-                    <li><a href="index.html"> Home </a></li>
-                    <li class="portfolio"><a href="portfolio.html"> Portfolio </a>
-                         <ul class="subnav">
-                    <li><a href="portfolio_developmentanddesign.html">Dev & Design</a></li>
-                    <li><a href="portfolio_graphicdesign.html"> Graphic Design</a></li>
-                    <li><a href="portfolio_photography.html">Photography</a></li>
-                    <li><a href="portfolio_videography.html">Videography</a></li>
-                </ul>
-                   </li>
-                    <li><a href="services.html"> Services </a></li>
-                    <li><a href="about.html"> About </a></li>
-                </ul>
+      <div class="top">
+        <div class="logo">
+          <image src="./images/svg/landlogo.png">
+        </div>
+        <!--            <image src="images/downarrow.png" class="down">-->
+        <ul class="nav">
+          <li><a href="index.html"> Home </a></li>
+          <li class="portfolio"><a href="portfolio.html"> Portfolio </a>
+            <ul class="subnav">
+              <li><a href="portfolio_developmentanddesign.html">Dev & Design</a></li>
+              <li><a href="portfolio_graphicdesign.html"> Graphic Design</a></li>
+              <li><a href="portfolio_photography.html">Photography</a></li>
+              <li><a href="portfolio_videography.html">Videography</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html"> Services </a></li>
+          <li><a href="about.html"> About </a></li>
+        </ul>
 
-           
-            </div>
+
+      </div>
     </header>
 
-  <main>
-    <!-- Hello I'm Wilfred Turcotte -->
-    <div class="intro__services">
-      <h1 class="page_title">Services</h1>
-      <img src="https://via.placeholder.com/435" alt="" >
-      <p>Below you'll be able to click on each of my employable skills to find out more details on what I have to offer
-        in each field.
-        Below you can contact me for a service and I will email you back as soon as I am able to.
-        You can also find my email at the bottom of the page.
-      </p>
-      <p>Click on each icon to read on that skill and be sure to send me a message if you're interested.</p>
+    <main>
+      <!-- Hello I'm Wilfred Turcotte -->
+      <div class="intro__services">
+        <h1 class="page_title">Services</h1>
+        <img src="https://via.placeholder.com/435" alt="">
+        <p>Below you'll be able to click on each of my employable skills to find out more details on what I have to
+          offer
+          in each field.
+          Below you can contact me for a service and I will email you back as soon as I am able to.
+          You can also find my email at the bottom of the page.
+        </p>
+        <p>Click on each icon to read on that skill and be sure to send me a message if you're interested.</p>
 
-    </div>
+      </div>
 
-    <div class="section__tiles__services">
-      <h1>Skill Fields & Information</h1>
-      <div class="dev_design"><img src="./images/SVG/devdesign.svg" alt="Development & Design" width="400px"></div>
-      <div class="graphic_design"><img src="./images/SVG/graphic.svg" alt="Graphic Design" width="400px"></div>
-      <div class="photography"><img src="./images/SVG/photography.svg" alt="Photography" width="400px"></div>
-      <div class="videography"><img src="./images/SVG/videography.svg" alt="videography" width="400px"></div>
-    </div>
+      <div class="section__tiles__services">
+        <h1>Skill Fields & Information</h1>
+        <div class="dev_design"><img src="./images/SVG/devdesign.svg" alt="Development & Design" width="400px"></div>
+        <div class="graphic_design"><img src="./images/SVG/graphic.svg" alt="Graphic Design" width="400px"></div>
+        <div class="photography"><img src="./images/SVG/photography.svg" alt="Photography" width="400px"></div>
+        <div class="videography"><img src="./images/SVG/videography.svg" alt="videography" width="400px"></div>
+      </div>
 
 
 
-    <div class="form_wrap">
-      <form>
-        <div class="nameemail">
+      <div class="form_wrap">
+        <form>
+          <div class="nameemail">
+            <fieldset>
+              <label for="name">Name</label>
+              <input type="text" name="name" placeholder=" first and last name">
+            </fieldset>
+
+            <fieldset>
+              <label for="email">Email</label>
+              <input type="text" name="email" placeholder=" example@email.com">
+            </fieldset>
+          </div>
           <fieldset>
-            <label for="name">Name</label>
-            <input type="text" name="name" placeholder=" first and last name">
+            <label for="message">Message</label>
+            <textarea name="message" placeholder=" write message here..."></textarea>
           </fieldset>
 
-          <fieldset>
-            <label for="email">Email</label>
-            <input type="text" name="email" placeholder=" example@email.com">
+          <fieldset class="sub">
+            <label>Yes, please subscribe me to spam</label>
+            <input type="checkbox" name="spam" value="yes" checked>
+
           </fieldset>
-        </div>
-        <fieldset>
-          <label for="message">Message</label>
-          <textarea name="message" placeholder=" write message here..."></textarea>
-        </fieldset>
 
-        <fieldset class="sub">
-          <label>Yes, please subscribe me to spam</label>
-          <input type="checkbox" name="spam" value="yes" checked>
+          <input type="submit" value="Submit" class="submit">
 
-        </fieldset>
-
-        <input type="submit" value="Submit" class="submit">
-
-      </form>
-    </div>
+        </form>
+      </div>
 
 
 
-  </main>
+    </main>
     <footer>
-        <ul class="ft-social">
-            <li><a href="https://www.linkedin.com/in/wilfred-turcotte-732235113/"><img src="./images/linkedin.svg" alt="Linkedin"></a></li>
-            <li><a href="https://www.instagram.com/wil.turcotte/"><img src="./images/SVG/insta.svg" alt="Instagram"></a></li>
-            <li><a href="https://www.youtube.com/channel/UCo8z2T_pO6neK7YGo5prS1w?view_as=subscriber"><img src="./images/youtube.svg" alt="Youtube"></a></li>
-        </ul>
+      <ul class="ft-social">
+        <li><a href="https://www.linkedin.com/in/wilfred-turcotte-732235113/"><img src="./images/linkedin.svg"
+              alt="Linkedin"></a></li>
+        <li><a href="https://www.instagram.com/wil.turcotte/"><img src="./images/SVG/insta.svg" alt="Instagram"></a>
+        </li>
+        <li><a href="https://www.youtube.com/channel/UCo8z2T_pO6neK7YGo5prS1w?view_as=subscriber"><img
+              src="./images/youtube.svg" alt="Youtube"></a></li>
+      </ul>
 
-        <ul class="ftnav">
-           <li><a href="index.html"> Home </a></li>
-                    <li class="portfolio"><a href="portfolio.html"> Portfolio </a>
-                         <ul class="ftsubnav">
-                    <li><a href="/portfolio_developmentanddesign.html">Dev & Design</a></li>
-                    <li><a href="/portfolio_graphicdesign.html"> Graphic Design</a></li>
-                    <li><a href="/portfolio_photography.html">Photography</a></li>
-                    <li><a href="/portfolio_videography.html">Videography</a></li>
-                </ul>
-                   </li>
-                    <li><a href="services.html"> Services </a></li>
-                    <li><a href="about.html"> About </a></li>
-        </ul>
+      <ul class="ftnav">
+        <li><a href="index.html"> Home </a></li>
+        <li class="portfolio"><a href="portfolio.html"> Portfolio </a>
+          <ul class="ftsubnav">
+            <li><a href="/portfolio_developmentanddesign.html">Dev & Design</a></li>
+            <li><a href="/portfolio_graphicdesign.html"> Graphic Design</a></li>
+            <li><a href="/portfolio_photography.html">Photography</a></li>
+            <li><a href="/portfolio_videography.html">Videography</a></li>
+          </ul>
+        </li>
+        <li><a href="services.html"> Services </a></li>
+        <li><a href="about.html"> About </a></li>
+      </ul>
 
-        <ul class="ftcontact">
-            <li><img src="/Web_Portfolio_Files/images/SVG/email.svg" alt="email icon" width="20px">turc0169@algonquinlive.com</li>
-            <li><img src="/Web_Portfolio_Files/images/SVG/location.svg" alt="location icon" height="20px">Nepean, Ottawa Ontario</li>
-            <li><img src="/Web_Portfolio_Files/images/SVG/phone.svg" alt="email icon" height="20px">613-204-5557</li>
-            <img class="back_to_top" src="" alt="">
-        </ul>
+      <ul class="ftcontact">
+        <li><img src="/Web_Portfolio_Files/images/SVG/email.svg" alt="email icon"
+            width="20px">turc0169@algonquinlive.com</li>
+        <li><img src="/Web_Portfolio_Files/images/SVG/location.svg" alt="location icon" height="20px">Nepean, Ottawa
+          Ontario</li>
+        <li><img src="/Web_Portfolio_Files/images/SVG/phone.svg" alt="email icon" height="20px">613-204-5557</li>
+        <img class="back_to_top" src="" alt="">
+      </ul>
 
     </footer>
 
-    </div>
+  </div>
 
 </body>
 

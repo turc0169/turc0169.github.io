@@ -1,3 +1,17 @@
+h1 {
+  color: white;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1rem;
+}
+
 header {
-  background-color: salmon;
+  background-color: coral;
+  color: white;
+}
+
+main {
+  color: lightcoral;
 }
